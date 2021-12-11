@@ -1,1 +1,1 @@
-# dental-api
+# django-template
