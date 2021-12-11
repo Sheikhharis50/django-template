@@ -1,0 +1,5 @@
+# Project
+https://pypi.org/project/django-debug-toolbar/
+
+# Documentation
+https://django-debug-toolbar.readthedocs.io/en/latest/installation.html

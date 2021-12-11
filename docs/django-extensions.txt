@@ -1,0 +1,5 @@
+# Project
+https://pypi.org/project/django-extensions/
+
+# Documentation
+https://django-extensions.readthedocs.io/en/latest/
