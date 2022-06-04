@@ -1,17 +1,14 @@
 {
-  "python.formatting.provider": "black",
-  "files.associations": {
-    "**/templates/*.html": "django-html",
-    "**/templates/*": "django-txt",
-    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
-    "*.env.prod": "env",
-    "*.env.stg": "env",
-    "*.env.dist": "env"
+  "search.exclude": {
+    "**/.sst": true
   },
-  "emmet.includeLanguages": {
-    "django-html": "html"
-  },
-  "python.testing.unittestArgs": ["-v", "-s", ".", "-p", "test*.py"],
-  "python.testing.pytestEnabled": false,
-  "python.testing.unittestEnabled": true
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "problems.autoReveal": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.inheritEnv": false,
+  "jestrunner.configPath": "jest.unit.config.cjs",
+  "compile-hero.disable-compile-files-on-did-save-code": true
 }

@@ -33,5 +33,8 @@ poetry install
 ```
 5) In order to run in production:
 ```
+# build containers and run as detached
 docker-compose up -build -d
+# create superuser
+docker-compose exec web python manage.py createsuperuser
 ```
