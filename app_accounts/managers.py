@@ -1,8 +1,16 @@
-from django.db import models
+from django.conf import settings
 from django.contrib.auth.models import BaseUserManager
+
+from utils.enums import Roles
+from utils.helpers import with_cache
 
 
 class UserManager(BaseUserManager):
+    related_fields = ("groups",)
+
+    def get(self, *args, **kwargs):
+        return super().prefetch_related(*self.related_fields).get(*args, **kwargs)
+
     def create_user(self, email, password=None):
         """
         Creates and saves a User with the given email and password.
@@ -42,3 +50,7 @@ class UserManager(BaseUserManager):
         user.is_superuser = True
         user.save(using=self._db)
         return user
+
+    @with_cache(settings.CACHE_FOR_DAY)
+    def get_admins(self):
+        return self.filter(groups__name=Roles.ADMIN.value).values("id", "email")

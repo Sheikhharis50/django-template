@@ -9,4 +9,4 @@ for arg in "$@"; do
   esac
 done
 
-python manage.py runserver_plus $flags
+python manage.py runserver_plus $flags --keep-meta-shutdown

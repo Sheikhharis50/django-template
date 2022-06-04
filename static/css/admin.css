@@ -1,0 +1,52 @@
+:root {
+  --clr-primary: #22577e;
+  --clr-primary-light: #5584ac;
+  --clr-secondary: #345b63;
+  --clr-secondary-light: #d4ecdd;
+}
+
+.related-widget-wrapper {
+  width: 64% !important;
+}
+
+.text-white {
+  color: white;
+}
+
+#header {
+  background-color: var(--clr-primary);
+}
+
+.breadcrumbs {
+  background-color: var(--clr-primary-light) !important;
+}
+
+.module caption {
+  background-color: var(--clr-primary-light);
+}
+
+#changelist-filter h2 {
+  background-color: var(--clr-primary-light);
+}
+
+#changelist-filter li.selected a {
+  color: var(--clr-secondary) !important;
+}
+
+tbody th a {
+  /* color: var(--clr-secondary-light) !important; */
+}
+
+form fieldset a {
+  color: var(--clr-secondary) !important;
+}
+
+input[type="submit"],
+input[type="submit"].default:hover {
+  background-color: var(--clr-secondary);
+}
+
+input[type="submit"]:hover,
+input[type="submit"].default {
+  background-color: var(--clr-primary-light);
+}
