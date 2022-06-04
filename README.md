@@ -2,7 +2,7 @@
 
 > Sheikh Haris Zahid
 
-Template for django to boost the project creation.
+Template for django to boost the project creation. Please Fork before using it, Thanks.
 
 ## Features
 - Poetry for Dependcies managment.
