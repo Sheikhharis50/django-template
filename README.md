@@ -11,6 +11,6 @@ Template for django to boost the project creation. Please Fork before using it, 
 - By Default, all APIs related to authentication is provided using SimpleJWT package.
 - Mail Sending Utility. (Async)
 - Notification Sending Utility. (Sync)
-- Job Secudeiling scripts.
+- Job Scheduling scripts.
 - Custom Permissions.
 - AWS S3 support. 
