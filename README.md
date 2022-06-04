@@ -1,6 +1,6 @@
 # django-template
 
-> [Sheikh Haris Zahid](https://github.com/Sheikhharis50/django-template)
+> [Sheikh Haris Zahid](https://github.com/Sheikhharis50)
 
 Template for django to boost the project creation. Please Fork before using it, Thanks.
 
