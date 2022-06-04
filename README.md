@@ -1,6 +1,6 @@
 # django-template
 
-> Sheikh Haris Zahid
+> [Sheikh Haris Zahid](https://github.com/Sheikhharis50/django-template)
 
 Template for django to boost the project creation. Please Fork before using it, Thanks.
 
@@ -14,3 +14,19 @@ Template for django to boost the project creation. Please Fork before using it, 
 - Job Scheduling scripts.
 - Custom Permissions.
 - AWS S3 support. 
+
+## Usage
+1) Install [Poetry](https://python-poetry.org/docs/)
+2) Create & Setup Enviornment:
+```
+poetry shell
+poetry install
+```
+3) To run with SQL:
+```
+./scripts/runserver.sh --sql
+```
+4) To run Shell with SQL:
+```
+./scripts/shell.sh --sql
+```
