@@ -14,6 +14,7 @@ Template for django to boost the project creation. Please Fork before using it, 
 - Job Scheduling scripts.
 - Custom Permissions.
 - AWS S3 support. 
+- Dockerized.
 
 ## Usage
 1) Install [Poetry](https://python-poetry.org/docs/)
@@ -29,4 +30,8 @@ poetry install
 4) To run Shell with SQL:
 ```
 ./scripts/shell.sh --sql
+```
+5) In order to run in production:
+```
+docker-compose up -build -d
 ```
