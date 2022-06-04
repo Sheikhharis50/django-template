@@ -4,7 +4,6 @@ from django.core.exceptions import ValidationError
 from django.contrib.admin.widgets import FilteredSelectMultiple
 
 from .models import User, Group
-from utils.helpers import log
 
 
 class RegisterForm(forms.ModelForm):
